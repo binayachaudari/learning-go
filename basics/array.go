@@ -25,6 +25,18 @@ func main() {
 	for index, vehicle := range vehicles{
 		fmt.Println(index, vehicle)
 	}
+
+	/*
+		Slice Range 
+		vehicles[startIndexIncluding: endIndexNotIncluding]
+			- startIndex and endIndex are optional
+			- empty startIndex infer start form the beginning 
+			- empty endIndex infer upto very end 
+	*/
+	fmt.Println(vehicles[0:2]) // [Car Jeep]
+	fmt.Println(vehicles[:2]) // [Car Jeep]
+	fmt.Println(vehicles[3:]) // [Bus Mini Van]
+
 }
  
 func getBus() string {
