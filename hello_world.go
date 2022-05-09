@@ -1,5 +1,5 @@
 // Every Go program must declate a package that it belongs to at the very beginning
-// Package is a collection of common soruce codes
+// Package is a collection of common source codes
 // `main` for generating executable file
 package main
 
@@ -9,7 +9,6 @@ package main
 import "fmt"
 
 // Main function, code execution starts here
-// `package main` must have `main()` function
 func main(){
 	fmt.Println("Hello World")
 }
